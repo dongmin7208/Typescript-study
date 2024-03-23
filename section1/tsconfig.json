@@ -3,7 +3,12 @@
     "target": "ESNext",
     "module": "ESNext",
     "outDir": "dist",
-    "strict": true
+    "strict": false,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true
   },
   "include": ["src"]
 }
