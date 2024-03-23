@@ -14,4 +14,18 @@ let doubleArr = [
 let tup1 = [1, 2];
 // tup1 = [1,2,3]; // Error
 let tup2 = [1, "2", true];
+const users = [
+    ["name", 123],
+    ["name2", 1234],
+    ["name3", 12345],
+    ["name4", 123456],
+    // [5, "name5"],
+];
 export {};
+// const users =[
+//   ["name", 123],
+//   ["name2", 1234],
+//   ["name3", 12345],
+//   ["name4", 123456],
+//   [5, "name5"],
+// ]
